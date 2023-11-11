@@ -1,0 +1,33 @@
+form {
+    width: 98%;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  form :is(textarea, input) {
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: solid, 25px rgba(0, 0, 0, 0.5);
+    margin: 15px auto;
+  }
+
+  form button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: #09c;
+    color: #fff;
+  }
+  article {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 10px;
+    width: 96%;
+    border-radius: 10px;
+  }
+  article:nth-child(even) {
+    margin-left: 4%;
+  }
